@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CircuitHaus | Built for power. Fixed with purpose.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      background-color: #0b0b0b;
+      color: #f0f0f0;
+      scroll-behavior: smooth;
+    }
+    a { color: #2ecfff; text-decoration: none; }
+    header, section, footer { padding: 60px 20px; max-width: 1200px; margin: auto; }
+    .intro { text-align: center; padding-top: 100px; }
+    .intro h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .intro p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .intro-lead {
+      background-color: #000;
+      text-align: center;
+      padding: 160px 20px 100px;
+      position: relative;
+    }
+    .intro-lead .headline {
+      font-size: 2rem;
+      color: #2ecfff;
+      animation: pulse 2s infinite;
+      margin-bottom: 40px;
+    }
+    .intro-lead p {
+      font-size: 1.3rem;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.8;
+    }
+    .scroll-down {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2rem;
+      color: #2ecfff;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translate(-50%, 0); }
+      50% { transform: translate(-50%, 10px); }
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #2ecfff;
+      margin-bottom: 20px;
+      text-align: center;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { text-shadow: 0 0 5px #2ecfff; }
+      50% { text-shadow: 0 0 20px #2ecfff; }
+      100% { text-shadow: 0 0 5px #2ecfff; }
+    }
+    .services-grid, .pc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #111;
+      padding: 20px;
+      border-left: 4px solid #2ecfff;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .cta {
+      text-align: center;
+      padding: 80px 20px;
+      background-color: #111;
+    }
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .cta a {
+      background: #2ecfff;
+      color: #0b0b0b;
+      padding: 12px 30px;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .cta a:hover {
+      background: #1cb7e5;
+    }
+    footer {
+      text-align: center;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div style="text-align: center; padding-top: 10px; background-color: #000; padding-bottom: 10px;">
+    <img src="CircuitHaus Logo BGR.png" alt="CircuitHaus Logo" style="max-width: 260px; height: auto;">
+  </div>
+
+  <div class="intro-lead">
+    <div class="headline">No one likes being left in the dark...</div>
+    <p>When your tech fails, it's more than an inconvenience — it's a threat to your time, your focus, and your security. At CircuitHaus, we bring clarity to the chaos with sleek, powerful setups and safety-first solutions that simply work. From smart homes to secure backups, we help you take control of your devices before troubleshooting starts.</p>
+    <p><strong>Start smart. Stay secure.<br><a href="/pricing" style="text-decoration: underline; color: #2ecfff; text-shadow: 0 0 10px #2ecfff;">Save with CircuitHaus.</a></strong></p>
+    <div class="scroll-down">&#x2193;</div>
+  </div>
+
+  <h2 class="section-title" style="margin-top: 80px;">Digital Safety Tune-Up</h2>
+  <div style="text-align: center; font-weight: bold; color: #fff; font-size: 1.3rem;">We audit, protect, and optimize your digital life. From antivirus to router hardening, your peace of mind is our priority.</div>
+  <div style="text-align: center; margin-top: 20px;">
+    <a href="/digital-safety" style="color: #2ecfff; font-weight: bold; font-size: 1.1rem; text-decoration: underline;">Learn more about protecting your home & identity →</a>
+  </div>
+
+  <section id="services">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-grid">
+      <div class="card">
+        <h3>PC Builds & Upgrades</h3>
+        <p>Custom rigs tailored to your workflow or gameplay. Clean, fast, and future-proofed.</p>
+      </div>
+      <div class="card">
+        <h3>Smart Home Setup</h3>
+        <p>Install and sync your smart devices for a seamless home experience.</p>
+      </div>
+      <div class="card">
+        <h3>Home IT Support</h3>
+        <p>Troubleshooting, networking, and tech headaches solved remotely or in person.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud Storage & Sync</h3>
+        <p>Keep your files secure, accessible, and automatically backed up across devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
+    <a href="/pricing" style="color: #2ecfff; font-weight: bold; font-size: 1.1rem; text-decoration: underline;">View our pricing guide →</a>
+  </div>
+
+  <h2 class="section-title" style="background-color: #000; padding-top: 60px;">Built for power. Fixed with purpose.</h2>
+  <p style="text-align: center; font-size: 1.5rem; font-weight: bold; color: #fff;">Your tech. Optimized, upgraded, and future-ready.</p>
+
+  <section id="pcbuilds">
+    <h2 class="section-title">PC Build Showcase</h2>
+    <div class="pc-grid">
+      <div class="card">
+        <h3>Stealth Edition</h3>
+        <p>Blacked out with RGB underglow. Perfect for minimalist gamers.</p>
+      </div>
+      <div class="card">
+        <h3>Creator Pro</h3>
+        <p>Power and performance for video editors, streamers, and 3D artists.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="get-started">
+    <h2>Let’s build your perfect setup.</h2>
+    <a href="#contact">Get Started</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CircuitHaus. All rights reserved.</p>
+    <p>Site created by: Marcus Bonnier</p>
+  </footer>
+</body>
+</html>
