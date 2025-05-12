@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CircuitHaus | Pricing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      background: linear-gradient(145deg, #0b0c10 0%, #111219 100%);
+      color: #f5f5f5;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    .section {
+      max-width: 1100px;
+      margin: 4rem auto;
+      padding: 3rem;
+      background: #121417;
+      border-radius: 2rem;
+      box-shadow: 0 0 50px rgba(0,0,0,0.75);
+      border: 1px solid #2ecfff55;
+      transition: all 0.3s ease;
+    }
+    .section:hover {
+      box-shadow: 0 0 80px rgba(46, 207, 255, 0.3);
+    }
+    .section-title {
+      text-align: center;
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 2.5rem;
+      color: #2ecfff;
+      animation: pulse 2s infinite;
+      letter-spacing: 1px;
+    }
+    .category {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+      color: #ffffff;
+      border-bottom: 2px solid #2ecfff;
+      padding-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .service {
+      margin-bottom: 2.5rem;
+      border-left: 3px solid #2ecfff;
+      padding-left: 1rem;
+      transition: all 0.2s ease;
+    }
+    .service:hover {
+      background-color: rgba(46, 207, 255, 0.05);
+      border-left-width: 5px;
+    }
+    .service-name {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #2ecfff;
+      animation: pulse 2s infinite;
+    }
+    .service-desc {
+      font-size: 1rem;
+      color: #ccc;
+      margin: 0.5rem 0 0.5rem;
+    }
+    .service-rate {
+      font-size: 1rem;
+      color: #2ecfff;
+      animation: pulse 2s infinite;
+    }
+    .bundle {
+      margin-top: 2rem;
+      padding: 1.2rem 1.8rem;
+      background: #181b20;
+      border: 1px solid #2ecfff;
+      border-radius: 1rem;
+      transition: background 0.2s ease;
+    }
+    .bundle:hover {
+      background: #20242a;
+    }
+    .footer-note {
+      text-align: center;
+      margin-top: 3rem;
+      color: #888;
+      font-size: 0.95rem;
+      border-top: 1px solid #2ecfff33;
+      padding-top: 2rem;
+    }
+    @keyframes pulse {
+      0% { text-shadow: 0 0 5px #2ecfff; }
+      50% { text-shadow: 0 0 20px #2ecfff; }
+      100% { text-shadow: 0 0 5px #2ecfff; }
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <div class="section-title">CircuitHaus Pricing</div>
+
+    <div class="category">Core Services</div>
+
+    <div class="service">
+      <div class="service-name">Smart Home Setup</div>
+      <div class="service-desc">Setup and configuration of smart lights, thermostats, door sensors, plugs, and assistants like Alexa or Google Home. Includes app and network integration.</div>
+      <div class="service-rate">$60/hr</div>
+    </div>
+
+    <div class="service">
+      <div class="service-name">Smart Lock Installation</div>
+      <div class="service-desc">Keyless lock install, app pairing, user setup, and integration with smart systems.</div>
+      <div class="service-rate">$80/hr</div>
+    </div>
+
+    <div class="service">
+      <div class="service-name">Home Security & Ring Cam Setup</div>
+      <div class="service-desc">Ring cam, video doorbell, and IP cam installation with mounting, network setup, and alerts.</div>
+      <div class="service-rate">$70/hr</div>
+    </div>
+
+    <div class="service">
+      <div class="service-name">Home IT Support</div>
+      <div class="service-desc">Desktop/laptop issues, printer setup, network troubleshooting, and device support.</div>
+      <div class="service-rate">$40/hr</div>
+    </div>
+
+    <div class="service">
+      <div class="service-name">Device Cleanup</div>
+      <div class="service-desc">App removal, malware scanning, startup tweaks, and performance optimization.</div>
+      <div class="service-rate">$40/hr</div>
+    </div>
+
+    <div class="service">
+      <div class="service-name">Cloud Storage Setup & Synchronization</div>
+      <div class="service-desc">Setup and sync for Google Drive, Dropbox, OneDrive, iCloud, plus training and backup config.</div>
+      <div class="service-rate">$30/hr</div>
+    </div>
+
+    <div class="category">Secondary Services</div>
+
+    <div class="service">
+      <div class="service-name">PC Builds or Upgrades</div>
+      <div class="service-desc">Custom builds, hardware upgrades, BIOS updates, and system optimization.</div>
+      <div class="service-rate">$60/hr</div>
+    </div>
+
+    <div class="service">
+      <div class="service-name">TV / Monitor Mounting</div>
+      <div class="service-desc">Wall-mounting TVs or monitors with layout, cable routing, and minor cleanup.</div>
+      <div class="service-rate">$60/hr</div>
+    </div>
+
+    <div class="service">
+      <div class="service-name">Cable Management</div>
+      <div class="service-desc">Organizing and securing wires with sleeves, clips, velcro, and optional cleanup.</div>
+      <div class="service-rate">$30/hr</div>
+    </div>
+
+    <div class="category">Add-Ons & Bundles</div>
+
+    <div class="bundle">
+      <div class="service-name">Device Training</div>
+      <div class="service-desc">Basic tutorial and personalized setup support.</div>
+      <div class="service-rate">$30 flat</div>
+    </div>
+
+    <div class="bundle">
+      <div class="service-name">Priority Scheduling</div>
+      <div class="service-desc">Service within 48 hours.</div>
+      <div class="service-rate">$50 flat</div>
+    </div>
+
+    <div class="bundle">
+      <div class="service-name">Dual-Service Bundle</div>
+      <div class="service-desc">Book any 2 services and get a 5% discount on total.</div>
+    </div>
+
+    <div class="bundle">
+      <div class="service-name">Multi-Service Bundle</div>
+      <div class="service-desc">Book 3+ services and get a 15% discount on total.</div>
+    </div>
+
+    <div class="bundle">
+      <div class="service-name">Extra Cabling</div>
+      <div class="service-desc">HDMI/Ethernet/etc – varies by job.</div>
+    </div>
+
+    <div class="footer-note">
+      All quotes subject to final approval. Pricing may vary based on equipment, time, or site conditions.<br>
+      Referrals, digital communication, and paperless billing qualify for exclusive rebates.<br><br>
+      &copy; 2025 CircuitHaus. All rights reserved.<br>
+      Site created by: <a href="https://marcusbonnier.com" style="color: #2ecfff; animation: pulse 2s infinite; text-decoration: none;">Marcus Bonnier</a>
+    </div>
+  </div>
+</body>
+</html>
